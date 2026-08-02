@@ -1,0 +1,8 @@
+s = input()
+print(len(s))
+for i in range(3): print(s, end = "")
+print(s[0])
+print(s[:3])
+print(s[-3:])
+print(s[::-1])
+print(s[1:-2])
